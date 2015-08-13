@@ -2,11 +2,4 @@
 
 platform :ios, '7.1'
 
-target 'Base' do
-
-end
-
-target 'BaseTests' do
-
-end
 
