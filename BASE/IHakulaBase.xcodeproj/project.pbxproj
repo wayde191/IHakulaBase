@@ -8,8 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		BA0CB03C1B7C4D10001294C3 /* Base.h in Headers */ = {isa = PBXBuildFile; fileRef = BA0CB03B1B7C4D10001294C3 /* Base.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BA0CB0421B7C4D10001294C3 /* IHakulaBase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA0CB0361B7C4D10001294C3 /* IHakulaBase.framework */; };
-		BA0CB0491B7C4D10001294C3 /* BaseTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BA0CB0481B7C4D10001294C3 /* BaseTests.m */; };
 		BA0CB0721B7C5E1A001294C3 /* iHAdditions+Foundation.h in Headers */ = {isa = PBXBuildFile; fileRef = BA0CB0541B7C5E1A001294C3 /* iHAdditions+Foundation.h */; };
 		BA0CB0731B7C5E1A001294C3 /* NSArray+iHAddition.h in Headers */ = {isa = PBXBuildFile; fileRef = BA0CB0551B7C5E1A001294C3 /* NSArray+iHAddition.h */; };
 		BA0CB0741B7C5E1A001294C3 /* NSArray+iHAddition.m in Sources */ = {isa = PBXBuildFile; fileRef = BA0CB0561B7C5E1A001294C3 /* NSArray+iHAddition.m */; };
@@ -42,23 +40,10 @@
 		BA0CB0901B7C5F37001294C3 /* Base.podspec in Resources */ = {isa = PBXBuildFile; fileRef = BA0CB08F1B7C5F37001294C3 /* Base.podspec */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		BA0CB0431B7C4D10001294C3 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BA0CB02D1B7C4D10001294C3 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = BA0CB0351B7C4D10001294C3;
-			remoteInfo = Base;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
 		BA0CB0361B7C4D10001294C3 /* IHakulaBase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = IHakulaBase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA0CB03A1B7C4D10001294C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BA0CB03B1B7C4D10001294C3 /* Base.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Base.h; sourceTree = "<group>"; };
-		BA0CB0411B7C4D10001294C3 /* IHakulaBaseTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IHakulaBaseTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		BA0CB0471B7C4D10001294C3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		BA0CB0481B7C4D10001294C3 /* BaseTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BaseTests.m; sourceTree = "<group>"; };
 		BA0CB0541B7C5E1A001294C3 /* iHAdditions+Foundation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "iHAdditions+Foundation.h"; sourceTree = "<group>"; };
 		BA0CB0551B7C5E1A001294C3 /* NSArray+iHAddition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+iHAddition.h"; sourceTree = "<group>"; };
 		BA0CB0561B7C5E1A001294C3 /* NSArray+iHAddition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+iHAddition.m"; sourceTree = "<group>"; };
@@ -99,14 +84,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BA0CB03E1B7C4D10001294C3 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				BA0CB0421B7C4D10001294C3 /* IHakulaBase.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -115,7 +92,6 @@
 			children = (
 				BA0CB08F1B7C5F37001294C3 /* Base.podspec */,
 				BA0CB0381B7C4D10001294C3 /* Base */,
-				BA0CB0451B7C4D10001294C3 /* BaseTests */,
 				BA0CB0371B7C4D10001294C3 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -124,7 +100,6 @@
 			isa = PBXGroup;
 			children = (
 				BA0CB0361B7C4D10001294C3 /* IHakulaBase.framework */,
-				BA0CB0411B7C4D10001294C3 /* IHakulaBaseTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -143,23 +118,6 @@
 			isa = PBXGroup;
 			children = (
 				BA0CB03A1B7C4D10001294C3 /* Info.plist */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		BA0CB0451B7C4D10001294C3 /* BaseTests */ = {
-			isa = PBXGroup;
-			children = (
-				BA0CB0481B7C4D10001294C3 /* BaseTests.m */,
-				BA0CB0461B7C4D10001294C3 /* Supporting Files */,
-			);
-			path = BaseTests;
-			sourceTree = "<group>";
-		};
-		BA0CB0461B7C4D10001294C3 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				BA0CB0471B7C4D10001294C3 /* Info.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -264,24 +222,6 @@
 			productReference = BA0CB0361B7C4D10001294C3 /* IHakulaBase.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		BA0CB0401B7C4D10001294C3 /* IHakulaBaseTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = BA0CB04F1B7C4D10001294C3 /* Build configuration list for PBXNativeTarget "IHakulaBaseTests" */;
-			buildPhases = (
-				BA0CB03D1B7C4D10001294C3 /* Sources */,
-				BA0CB03E1B7C4D10001294C3 /* Frameworks */,
-				BA0CB03F1B7C4D10001294C3 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				BA0CB0441B7C4D10001294C3 /* PBXTargetDependency */,
-			);
-			name = IHakulaBaseTests;
-			productName = BaseTests;
-			productReference = BA0CB0411B7C4D10001294C3 /* IHakulaBaseTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -292,9 +232,6 @@
 				ORGANIZATIONNAME = ihakula;
 				TargetAttributes = {
 					BA0CB0351B7C4D10001294C3 = {
-						CreatedOnToolsVersion = 6.4;
-					};
-					BA0CB0401B7C4D10001294C3 = {
 						CreatedOnToolsVersion = 6.4;
 					};
 				};
@@ -312,7 +249,6 @@
 			projectRoot = "";
 			targets = (
 				BA0CB0351B7C4D10001294C3 /* IHakulaBase */,
-				BA0CB0401B7C4D10001294C3 /* IHakulaBaseTests */,
 			);
 		};
 /* End PBXProject section */
@@ -323,13 +259,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				BA0CB0901B7C5F37001294C3 /* Base.podspec in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		BA0CB03F1B7C4D10001294C3 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -356,23 +285,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BA0CB03D1B7C4D10001294C3 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				BA0CB0491B7C4D10001294C3 /* BaseTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		BA0CB0441B7C4D10001294C3 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = BA0CB0351B7C4D10001294C3 /* IHakulaBase */;
-			targetProxy = BA0CB0431B7C4D10001294C3 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		BA0CB04A1B7C4D10001294C3 /* Debug */ = {
@@ -495,36 +408,6 @@
 			};
 			name = Release;
 		};
-		BA0CB0501B7C4D10001294C3 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = BaseTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = IHakulaBaseTests;
-			};
-			name = Debug;
-		};
-		BA0CB0511B7C4D10001294C3 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = BaseTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = IHakulaBaseTests;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -542,15 +425,6 @@
 			buildConfigurations = (
 				BA0CB04D1B7C4D10001294C3 /* Debug */,
 				BA0CB04E1B7C4D10001294C3 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		BA0CB04F1B7C4D10001294C3 /* Build configuration list for PBXNativeTarget "IHakulaBaseTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				BA0CB0501B7C4D10001294C3 /* Debug */,
-				BA0CB0511B7C4D10001294C3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
